@@ -5,7 +5,7 @@ import os
 app = Flask(__name__)
 
 API_URL = "https://openrouter.ai/api/v1/chat/completions"
-API_KEY = "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"  
+API_KEY = "your_api_here"  
 
 @app.route("/")
 def index():
